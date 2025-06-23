@@ -19,12 +19,25 @@
 
 .custom-list {
   list-style-position: inside;
-  padding-left: 1em;
+  padding: 1em;
   text-align: left;
   border: 1px solid #646cff;
 }
 .custom-list li {
   margin: 0.5em 0;
+}
+
+.custom-summary {
+  list-style-position: inside;
+  padding: 1em;
+  text-align: left;
+  border: 1px solid #ff9800;      /* Orange border */
+  background-color: #2e3a59;      /* Deep blue background */
+  color: #ffb74d;
+}
+.custom-summary li {
+  margin: 0.5em 0;
+  color: whitesmoke;                 /* Softer orange for list items */
 }
 
 * {

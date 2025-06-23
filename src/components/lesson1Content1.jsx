@@ -1,11 +1,13 @@
 import '../static/css/mainButton.css';
+
 export default function Lesson1Content1() {
   return (
     <>
         <h2 className='orange-text underline'>Your First Component</h2>
-        <p>It talk about creating a simple component that can be export and import into an another component or pages 
+        <p>It talks about creating a simple component that can be exported and imported into another component or pages
             or directly into the App.js file. When we create react UI components, we need to follow some rules.</p>
-        <ol className='custom-list'>
+        <ol className='custom-summary'>
+            <h3>Just follow some rules.</h3>
             <li>Component names must start with a capital letter.</li>
             <li>Components can be defined as functions or classes.</li>
             <li>We can only return a single JSX element from a component using a div or react fragment</li>
