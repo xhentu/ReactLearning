@@ -48,6 +48,32 @@
   color: rgb(148, 117, 58);
 }
 
+.red-text {
+  color: rgb(255, 82, 82);
+  font-weight: bold;
+}
+
+.green-text {
+  color: green;
+}
+
 .underline {
   text-decoration: underline wavy;
 }
+
+code {
+  background: rgba(70, 67, 67, 0.733);
+  padding: 1em;
+  display: block;
+  border-radius: 6px;
+  font-family: monospace;
+  white-space: pre-wrap;
+}
+
+.inline-code {
+  background: rgba(90, 79, 88, 0.733);
+  border-radius: 6px;
+  font-family: monospace;
+  white-space: pre-wrap;
+}
+
