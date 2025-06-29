@@ -25,6 +25,7 @@ export default function Lesson1Content1() {
 
         </ol>
         <p>This is as far as I have gotten with the lesson content. Maybe we need to add later.</p>
+        <hr />
     </>
   );
 }

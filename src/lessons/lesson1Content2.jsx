@@ -40,6 +40,7 @@ export default function Lesson1Content2() {
             <li>For default exports, we can import the component without using curly braces.</li>
             <li>For named exports, we must use curly braces when importing.</li>
         </ol>
+        <hr />
     </>
   );
 }

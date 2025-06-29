@@ -108,6 +108,7 @@ export default function Lesson1Content5() {
                 <li><span className="red-text">Props are read-only snapshots in time: every render receives a new version of props. 
                     You can’t change props. When you need interactivity, you’ll need to set state.</span></li>
             </ol>
+            <hr />
         </>
     )
 

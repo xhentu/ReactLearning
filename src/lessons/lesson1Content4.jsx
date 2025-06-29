@@ -93,6 +93,7 @@ export default function Lesson1Content4() {
         <p>Yeaaaa, this lesson only talk about passing variables. Not props. But whatever, it is basic, right? So we 
             stop it here. And no recap for now!</p>
 
+        <hr />
         </>
     )
 }

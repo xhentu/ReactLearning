@@ -23,6 +23,7 @@ export default function Lesson1Content3() {
             <li>Close all the tags</li>
             <li>Use camelCase for almost everything</li>
         </ol>
+        <hr />
         </>
     )
 }
