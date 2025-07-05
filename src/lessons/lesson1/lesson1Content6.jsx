@@ -1,5 +1,5 @@
-import "../static/css/mainButton.css";
-import PackingList from "../components/conditionalRendering";
+import '../../static/css/mainButton.css';
+import PackingList from "../../components/conditionalRendering";
 
 export default function Lesson1Content6() {
 

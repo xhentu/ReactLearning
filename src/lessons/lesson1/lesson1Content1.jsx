@@ -1,4 +1,5 @@
-import '../static/css/mainButton.css';
+// import '../../../static/css/mainButton.css';
+import '../../static/css/mainButton.css'; // Ensure the correct path to your CSS file
 
 export default function Lesson1Content1() {
   return (

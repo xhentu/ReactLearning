@@ -1,6 +1,6 @@
-import "../static/css/mainButton.css";
-import CountDownStopwatch from "../components/countDownStopwatch";
-import PassingVariable from "../components/passingVariable";
+import '../../static/css/mainButton.css';
+import CountDownStopwatch from "../../components/countDownStopwatch";
+import PassingVariable from "../../components/passingVariable";
 
 
 const user = {

@@ -1,4 +1,4 @@
-import '../static/css/mainButton.css';
+import '../../static/css/mainButton.css';
 
 export default function Lesson1Content2() {
   return (

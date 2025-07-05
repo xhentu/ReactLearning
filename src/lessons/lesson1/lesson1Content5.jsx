@@ -1,4 +1,5 @@
-import "../static/css/mainButton.css";
+import '../../static/css/mainButton.css';
+
 export default function Lesson1Content5() {
 
     const profile = `<Profile />`;
