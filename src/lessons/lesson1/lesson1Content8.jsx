@@ -40,6 +40,7 @@ export default function Lesson1Content8() {
                     </span>
                 </li>
             </ol>
+            <hr />
         </>
     )
 }

@@ -1,9 +1,16 @@
+import MainButton from "../components/mainButton";
+import ScrollToTopButton from "../components/scrollToTop";
+import Lesson2Content1 from "../lessons/lesson2/lesson2Content1";
+
+
 function Lesson2() {
   return (
     <div>
-      <h1>Welcome to Lesson 2</h1>
-      <p>This is the second lesson in our React learning series.</p>
-      <p>In this lesson, we will cover the basics of React Router and navigation.</p>
+      <MainButton label="Home" lesson=""/>
+      <h1>Lesson 2 is 'Adding Interactivity'.</h1>
+      <p>Ok, after making components, we add some interactivity. Right?</p>
+      <Lesson2Content1 />
+      <ScrollToTopButton />
     </div>
   );
 }

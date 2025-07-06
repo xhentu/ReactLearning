@@ -53,6 +53,7 @@ export default function RecipeList() {
 }`}
                 </code>
             </pre>
+            <hr />
         </>
     )
 }

@@ -1,5 +1,6 @@
 import Gallery from "../components/gallary";
 import MainButton from "../components/mainButton";
+import ScrollToTopButton from "../components/scrollToTop";
 import Lesson1Content1 from "../lessons/lesson1/lesson1Content1";
 import Lesson1Content2 from "../lessons/lesson1/lesson1Content2";
 import Lesson1Content3 from "../lessons/lesson1/lesson1Content3";
@@ -26,6 +27,7 @@ function Lesson1() {
       <Lesson1Content7 />
       <Lesson1Content8 />
       <Lesson1Content9 />
+      <ScrollToTopButton />
     </div>
   );
 }

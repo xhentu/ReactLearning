@@ -82,6 +82,7 @@ export default function PackingList() {
                 <li>Then we check the condition and render the list.</li>
                 <li>We can use all conditional things like if else, tenary operators and && operators.</li>
             </ol>
+            <hr />
         </>
     )
 }
