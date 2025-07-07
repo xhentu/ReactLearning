@@ -18,6 +18,6 @@ export function CountButton({ count, setCount }) {
         </button>
     );
 }
-// thats does'nt work
+// thats doesn't work
 
 
