@@ -1,4 +1,5 @@
 import "../static/css/mainButton.css";
+import { useState } from "react";
 
 export default function AButton({ children, action }) {
 
@@ -11,13 +12,20 @@ export default function AButton({ children, action }) {
 }
 
 // lets create count button
-export function CountButton({ count, setCount }) {
+export function CountButton() {
+    const [count, setCount] = useState(0);
+    function handleClick() {
+        setCount(count + 1);
+        console.log(`Count is now: ${count + 1}`);
+    }
+    
     return (
-        <button onClick={() => setCount(count + 1)}>
+        <button onClick={handleClick}>
             Count: {count}
         </button>
     );
 }
+
 // thats does'nt work
 
 

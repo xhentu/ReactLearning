@@ -13,6 +13,7 @@ export default function Lesson2Content1() {
             <AButton children="I dont know! Click it?"/>
             <p>Now it does nothing. Right? Lets make something happen.</p>
             <AButton children="I need to know something!" action={() => alert("I need to know something!")}/>
+            <CountButton />
         </>
     )
 }
