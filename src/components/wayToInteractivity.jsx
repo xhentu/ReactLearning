@@ -20,12 +20,12 @@ export function CountButton() {
     }
     
     return (
-        <button onClick={handleClick}>
+        <button onClick={handleClick} className="main-button">
             Count: {count}
         </button>
     );
 }
 
-// thats does'nt work
+// thats does'nt work => it works now
 
 
